@@ -1,0 +1,10 @@
+package org.interfaces;
+
+public interface IQUEUE<Item> {
+
+    boolean isEmpty();
+    int getSize();
+    Item dequeue();
+    void enqueue(Item newNodeData);
+
+}
