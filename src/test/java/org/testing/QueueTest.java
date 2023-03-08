@@ -1,6 +1,6 @@
 package org.testing;
 
-import org.example.Queue;
+import org.lab2.queue.Queue;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

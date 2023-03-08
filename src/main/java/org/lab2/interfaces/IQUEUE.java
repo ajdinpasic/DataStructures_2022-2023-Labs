@@ -1,4 +1,4 @@
-package org.interfaces;
+package org.lab2.interfaces;
 
 public interface IQUEUE<Item> {
 
@@ -6,5 +6,6 @@ public interface IQUEUE<Item> {
     int getSize();
     Item dequeue();
     void enqueue(Item newNodeData);
+    boolean test = false;
 
 }

@@ -1,8 +1,6 @@
-package org.example;
+package org.lab2.queue;
 
-import org.interfaces.IQUEUE;
-
-public class Queue<Item> {
+public class Queue<Item>{
 
     private int size;
     private Node<Item> head;
