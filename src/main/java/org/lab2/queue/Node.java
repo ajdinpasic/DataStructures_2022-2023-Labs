@@ -5,6 +5,4 @@ import org.lab2.interfaces.IQUEUE;
 public class Node<Item> {
     Item data;
     Node<Item> next;
-    IQUEUE<Item> iqueue;
-
 }
