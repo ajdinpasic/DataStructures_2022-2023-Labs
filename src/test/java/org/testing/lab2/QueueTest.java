@@ -1,4 +1,4 @@
-package org.testing;
+package org.testing.lab2;
 
 import org.lab2.queue.Queue;
 import org.junit.jupiter.api.*;
