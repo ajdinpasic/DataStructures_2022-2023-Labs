@@ -10,7 +10,6 @@ public class Student implements  Comparable<Student> {
         this.department = department;
         this.gpa = gpa;
     }
-
     @Override
     public int compareTo(Student that) {
         if(this.gpa > that.gpa) return 1;

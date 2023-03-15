@@ -6,7 +6,7 @@ import org.lab3.Student;
 
 public class Main {
     public static void main(String[] args) {
-        // Week 1
+        // Week 2
     /*  System.out.println("Hello world!");
         Queue<Integer > queue = new Queue<Integer>();
         queue.enqueue(1);
@@ -21,7 +21,7 @@ public class Main {
         queue.enqueue(  13);
         System.out.println("Size: "+queue.getSize());
 
-        // Week 2
+        // Week 3
         Student a = new Student("Ajdin", "IT", 65.55);
         Student b = new Student("Mirza", "IT", 65.55);
         System.out.println(a.compareTo(b)); */
