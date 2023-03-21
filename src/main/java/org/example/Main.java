@@ -3,6 +3,10 @@ package org.example;
 import org.lab2.queue.Queue;
 import org.lab3.BubbleSort;
 import org.lab3.Student;
+import org.lab4.ShellSort;
+
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,10 +26,10 @@ public class Main {
         System.out.println("Size: "+queue.getSize());
 
         // Week 3
-        Student a = new Student("Ajdin", "IT", 65.55);
+        Student a = new Student("Ajdin", "IT", 5.55);
         Student b = new Student("Mirza", "IT", 65.55);
         System.out.println(a.compareTo(b)); */
-
+/*
         Student[] students = { new Student("Ajdin", "IT", 75.55),
                 new Student("Zerina", "IT", 85.55),
                 new Student("Mirza", "IT", 15.55),
@@ -38,6 +42,23 @@ public class Main {
         for (Student student : students) {
             System.out.println(student.fullName + "\s" + student.department + "\s" + student.gpa);
         }
+*/
+
+        // Week 4
+        int[] elements = new int[100];
+        Random random = new Random();
+
+        for (int i = 0; i < elements.length; i++) {
+            elements[i] = random.nextInt(1000);
+        }
+
+        ShellSort.sort(elements);
+        long start = System.currentTimeMillis();
+        for (int item : elements) {
+            System.out.println(item);
+        }
+
+        System.out.println(System.currentTimeMillis()-start);
 
     }
 }
