@@ -1,10 +1,7 @@
 package org.example;
 
-import org.lab2.queue.Queue;
-import org.lab3.BubbleSort;
-import org.lab3.Student;
-import org.lab4.ShellSort;
-
+import org.lab5.MergeSort;
+import org.lab5.MergeSortBottomUp;
 
 import java.util.Random;
 
@@ -42,7 +39,7 @@ public class Main {
         for (Student student : students) {
             System.out.println(student.fullName + "\s" + student.department + "\s" + student.gpa);
         }
-*/
+
 
         // Week 4
         int[] elements = new int[100];
@@ -61,4 +58,22 @@ public class Main {
         System.out.println(System.currentTimeMillis()-start);
 
     }
+*/
+            // Week 5
+
+            int[] elements = new int[100];
+            Random random = new Random();
+
+            for (int i = 0; i < elements.length; i++) {
+                elements[i] = random.nextInt(1000);
+            }
+
+            //MergeSortBottomUp.sort(elements);
+            MergeSort.sort(elements);
+
+            for (int i: elements) {
+                System.out.println(i);
+            }
+        }
+
 }
