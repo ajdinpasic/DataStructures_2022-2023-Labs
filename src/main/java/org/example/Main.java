@@ -2,6 +2,7 @@ package org.example;
 
 import org.lab5.MergeSort;
 import org.lab5.MergeSortBottomUp;
+import org.lab6.QuickSort;
 
 import java.util.Random;
 
@@ -60,7 +61,7 @@ public class Main {
     }
 */
             // Week 5
-
+/*
             int[] elements = new int[100];
             Random random = new Random();
 
@@ -73,7 +74,22 @@ public class Main {
 
             for (int i: elements) {
                 System.out.println(i);
-            }
+            } */
+
+            // Week 6
+        int[] elements = new int[100];
+        Random random = new Random();
+
+        for (int i = 0; i < elements.length; i++) {
+            elements[i] = random.nextInt(1000);
+        }
+
+        QuickSort.sort(elements);
+
+        for (int i: elements) {
+            System.out.println(i);
+        }
+
         }
 
 }
