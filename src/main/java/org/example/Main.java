@@ -3,6 +3,7 @@ package org.example;
 import org.lab5.MergeSort;
 import org.lab5.MergeSortBottomUp;
 import org.lab6.QuickSort;
+import org.lab7.RadixSort;
 
 import java.util.Random;
 
@@ -74,7 +75,7 @@ public class Main {
 
             for (int i: elements) {
                 System.out.println(i);
-            } */
+            }
 
             // Week 6
         int[] elements = new int[100];
@@ -89,7 +90,25 @@ public class Main {
         for (int i: elements) {
             System.out.println(i);
         }
+*/
 
+        // Week 7
+        int[] elements = new int[100];
+        Random random = new Random();
+
+        for (int i = 0; i < elements.length; i++) {
+            elements[i] = random.nextInt(1000);
         }
+
+        RadixSort.sort(elements);
+
+        for (int i = 0; i < elements.length; i++) {
+            System.out.println("Element is: "+ elements[i]);
+        }
+
+
+
+    }
+
 
 }
