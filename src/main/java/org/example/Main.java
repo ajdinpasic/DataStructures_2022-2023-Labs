@@ -4,7 +4,7 @@ import org.lab5.MergeSort;
 import org.lab5.MergeSortBottomUp;
 import org.lab6.QuickSort;
 import org.lab7.RadixSort;
-
+import org.lab8.BinaryHeap;
 import java.util.Random;
 
 public class Main {
@@ -90,7 +90,7 @@ public class Main {
         for (int i: elements) {
             System.out.println(i);
         }
-*/
+
 
         // Week 7
         int[] elements = new int[100];
@@ -105,10 +105,22 @@ public class Main {
         for (int i = 0; i < elements.length; i++) {
             System.out.println("Element is: "+ elements[i]);
         }
+*/
+        // Week 8
 
+            BinaryHeap<Integer> heap = new BinaryHeap<Integer>();
+
+            heap.insert(4);
+            heap.insert(10);
+            heap.insert(-5);
+            heap.insert(7);
+
+            System.out.println("current max: " + heap.delMax());
+            System.out.println("current max: " + heap.delMax());
+            System.out.println("current max: " + heap.delMax());
+            System.out.println("heap size: " + heap.size());
+            System.out.println("current max: " + heap.delMax());
+        }
 
 
     }
-
-
-}
