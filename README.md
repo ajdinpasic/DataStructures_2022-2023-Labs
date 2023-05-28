@@ -1,15 +1,17 @@
 # DataStructures_2022-2023-Labs
 
-## Week 2
+## Lab 2
 
-## Week 3
+## Lab 3
 
-## Week 4
+## Lab 4
 
-## Week 5
+## Lab 5
 
-## Week 6
+## Lab 6
 
-## Week 7
+## Lab 7
 
-## Week 8
+## Lab 8
+
+## Lab 9
